@@ -1,0 +1,35 @@
+#tablaUsuarios {
+    border-collapse:collapse;
+    margin: 5px 5;
+    font-size:30.8%;
+    font-family: 'Arial', sans-serif;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 20px rgba(241, 161, 57, 0.979);
+}
+#tablaUsuarios thead tr {
+    background-color: #009879;
+    color: #e2e613dc;
+    text-align: left;
+}
+
+#tablaUsuarios th, #tablaUsuarios td {
+    border: 1px solid #67e28ccb;
+    padding: 10px 12px;
+}
+
+#tablaUsuarios tbody tr {
+    border-bottom: 1px solid #b3eb5af3;
+}
+
+#tablaUsuarios tbody tr:nth-of-type(even) {
+    background-color: #73eff8;
+}
+
+#tablaUsuarios tbody tr:last-of-type {
+    border-bottom: 2px solid #33dfbc;
+}
+#tablaUsuarios tbody tr:hover {
+    background-color: #60db199c;
+}
